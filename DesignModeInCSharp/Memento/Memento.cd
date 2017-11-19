@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="http://blog.csdn.net/yanbober/article/details/45535821.&#xD;&#xA;负责人Caretaker由测试类Test中的Main代替">
+    <Position X="8.275" Y="0.767" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="DesignModeInCSharp.Memento.MasterOriginator">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAEAAAAAAYAA=</HashCode>
+      <FileName>Memento\MasterOriginator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Memento.RobotMemento">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Memento\RobotMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

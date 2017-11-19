@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="双重分发：&#xD;&#xA;element.accept(visitor)&#xD;&#xA;和 visitor.visit(element)&#xD;&#xA;是一个相反关系。这种消息分发方式称为双重分发">
+    <Position X="2.783" Y="0.933" Height="1.283" Width="1.75" />
+  </Comment>
+  <Class Name="DesignModeInCSharp.Visitor.Visitor">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Visitor.Entry">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAACAAAAAAgAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\Entry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Visitor.File">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Visitor.Directory">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAACAAAAAAgAAAAAgAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\Directory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Visitor.ListVisitor">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Visitor\ListVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignModeInCSharp.Visitor.IElement">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\IElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

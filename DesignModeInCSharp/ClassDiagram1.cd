@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignModeInCSharp.AbstractFactory.Factory.Factory" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAAAAAAACAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Factory\Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.Factory.Item" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AbstractFactory\Factory\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.Factory.Link" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Factory\Link.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.Factory.Page" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAQAAAAAAAAQAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Factory\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.Factory.Tray" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Factory\Tray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.ListFactory.ListFactory" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\ListFactory\ListFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.ListFactory.ListLink" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\ListFactory\ListLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.ListFactory.ListPage" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\ListFactory\ListPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.ListFactory.ListTray" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\ListFactory\ListTray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.AbstractFactory.Test" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.CountDisplay" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge\CountDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.Display" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAACEAAE=</HashCode>
+      <FileName>Bridge\Display.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.DisplayImpl" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge\DisplayImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.StringDisplayImpl" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAgAQAAAAEAACAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge\StringDisplayImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.Test" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Bridge\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Builder.Builder" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>Builder\Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Builder.Director" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Builder.HTMLBuilder" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAQAAAAAAAAAAAAAAAAIAUAAAACAAAA=</HashCode>
+      <FileName>Builder\HTMLBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Builder.Testcs" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Builder\Testcs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Builder.TextBuilder" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAEBAAACAAAA=</HashCode>
+      <FileName>Builder\TextBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Program" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Prototype.Manager" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>Prototype\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Prototype.MessageBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Prototype\MessageBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Prototype.Test" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Prototype\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Prototype.UnderlinePen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Prototype\UnderlinePen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Strategy.Hand">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAIAAAkAAAAAAAAAEAEIAAAAACAASAAAAA=</HashCode>
+      <FileName>Strategy\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.WinningStrategy">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAABBAgAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Strategy\WinningStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.217" />
+  </Class>
+  <Class Name="DesignModeInCSharp.ProbStrategy">
+    <Position X="14" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAABAAgAAAAAAAAAAQABAAgAgA=</HashCode>
+      <FileName>Strategy\ProbStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Player">
+    <Position X="15.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAACAAAAAAEEkAAAABgAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Bridge.A" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Bridge\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Strategy.Test" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Strategy\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignModeInCSharp.Prototype.Product" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prototype\Product.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignModeInCSharp.Strategy.IStrategy">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

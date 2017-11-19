@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignModeInCSharp.Observer.EmailSender">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACABAAAAAAAAAAgAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Observer\EmailSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Observer.Email">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Observer.SinaEmailSender">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Observer\SinaEmailSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Observer.ShuMailBoxObserver">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ShuMailBoxObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Observer.QiangMailBoxObserver" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\QiangMailBoxObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignModeInCSharp.Observer.EmailReceiveObserver">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\EmailReceiveObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

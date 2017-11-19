@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Singleton 注释&#xD;&#xA;与所有类类型的情况一样，静态类的类型信息在引用该类的程序加载时，由 .NET Framework 公共语言运行时 (CLR) 加载。 程序无法确切指定类加载的时间。 但是，可保证进行加载，以及在程序中首次引用类之前初始化其字段并调用其静态构造函数。 静态构造函数只调用一次，在程序所驻留的应用程序域的生存期内，静态类会保留在内存中。 ">
+    <Position X="11" Y="1.5" Height="2.525" Width="1.7" />
+  </Comment>
+  <Class Name="DesignModeInCSharp.State.NightState">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAEAAIAAAAABQAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>State\NightState.cs</FileName>
+      <NewMemberFileName>State\DayState.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.State.DayState">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAEAAIAAAAABQAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>State\DayState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.State.SafeForm" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAWBAAAEAGAABCAAAACAAAACAAAAIAAEAAACDCAAgAQ=</HashCode>
+      <FileName>State\SafeForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.State.Test">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>State\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignModeInCSharp.State.IState">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>State\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignModeInCSharp.State.IContext" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACCAAAAA=</HashCode>
+      <FileName>State\IContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
