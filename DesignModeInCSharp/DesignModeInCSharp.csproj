@@ -14,7 +14,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{58835F76-E9FA-44FD-813E-06A1649BD36E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>DesignModeInCSharp</RootNamespace>
     <AssemblyName>DesignModeInCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -41,7 +41,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignModeInCSharp.State.Test</StartupObject>
+    <StartupObject>DesignModeInCSharp.Proxy.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -114,6 +114,10 @@
     <Compile Include="Observer\ShuMailBoxObserver.cs" />
     <Compile Include="Observer\SinaEmailSender.cs" />
     <Compile Include="Observer\Test.cs" />
+    <Compile Include="Proxy\IPrintable.cs" />
+    <Compile Include="Proxy\Printer.cs" />
+    <Compile Include="Proxy\PrinterPoxy.cs" />
+    <Compile Include="Proxy\Test.cs" />
     <Compile Include="State\DayState.cs" />
     <Compile Include="State\IContext.cs" />
     <Compile Include="State\IState.cs" />
@@ -154,13 +158,13 @@
     <None Include="Mediator\Mediator.cd" />
     <None Include="Memento\Memento.cd" />
     <None Include="Observer\Observer.cd" />
+    <None Include="Proxy\Proxy.cd" />
     <None Include="State\State.cd" />
     <None Include="Visitor\Visitor.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ChainOfResponsibility\" />
     <Folder Include="Flyweight\" />
-    <Folder Include="Proxy\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mediator\LoginForm.resx">

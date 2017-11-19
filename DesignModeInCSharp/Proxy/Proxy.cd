@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="PrinterPoxy定义了一个静态的互斥锁，这样的话不会出现重复构造对象的状况">
+    <Position X="5" Y="1" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Printer和PrinterPoxy有关联性。不过可以通过动态加载来实现解耦">
+    <Position X="3.5" Y="2.25" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="DesignModeInCSharp.Proxy.Printer">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAEBAA=</HashCode>
+      <FileName>Proxy\Printer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Proxy.PrinterPoxy">
+    <Position X="9.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAQAAEJAA=</HashCode>
+      <FileName>Proxy\PrinterPoxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignModeInCSharp.Proxy.IPrintable">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEBAA=</HashCode>
+      <FileName>Proxy\IPrintable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
