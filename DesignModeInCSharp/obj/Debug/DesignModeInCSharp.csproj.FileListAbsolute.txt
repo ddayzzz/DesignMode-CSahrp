@@ -30,3 +30,4 @@ F:\DesignModeInCSharp\DesignModeInCSharp\bin\Debug\zh-Hant\Microsoft.Build.resou
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.Mediator.LoginForm.resources
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.csproj.GenerateResource.Cache
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.State.SafeForm.resources
+F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.Command.DrawForm.resources

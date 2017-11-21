@@ -41,7 +41,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignModeInCSharp.Proxy.Test</StartupObject>
+    <StartupObject>DesignModeInCSharp.Interpreter.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,6 +76,20 @@
     <Compile Include="Builder\HTMLBuilder.cs" />
     <Compile Include="Builder\Testcs.cs" />
     <Compile Include="Builder\TextBuilder.cs" />
+    <Compile Include="Command\DrawCommand.cs" />
+    <Compile Include="Command\DrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command\DrawForm.Designer.cs">
+      <DependentUpon>DrawForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command\DrawPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\IDrawable.cs" />
+    <Compile Include="Command\MacroCommand.cs" />
+    <Compile Include="Command\Test.cs" />
     <Compile Include="Composite\Directory.cs" />
     <Compile Include="Composite\Entry.cs" />
     <Compile Include="Composite\File.cs" />
@@ -86,6 +100,15 @@
     <Compile Include="Dectorator\PlainXMLFormater.cs" />
     <Compile Include="Dectorator\StringDisplay.cs" />
     <Compile Include="Dectorator\Test.cs" />
+    <Compile Include="Interpreter\CommandListNode.cs" />
+    <Compile Include="Interpreter\CommandNode.cs" />
+    <Compile Include="Interpreter\Context.cs" />
+    <Compile Include="Interpreter\Node.cs" />
+    <Compile Include="Interpreter\ParseException.cs" />
+    <Compile Include="Interpreter\PrimitiveCommandNode.cs" />
+    <Compile Include="Interpreter\ProgramNode.cs" />
+    <Compile Include="Interpreter\RepeatCommandNode.cs" />
+    <Compile Include="Interpreter\Test.cs" />
     <Compile Include="Mediator\ColleagueButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -153,8 +176,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="Command\Command.cd" />
     <None Include="Composite.cd" />
     <None Include="Dectorator\Dectorator.cd" />
+    <None Include="Interpreter\Interpreter.cd" />
     <None Include="Mediator\Mediator.cd" />
     <None Include="Memento\Memento.cd" />
     <None Include="Observer\Observer.cd" />
@@ -164,9 +189,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ChainOfResponsibility\" />
+    <Folder Include="Facade\" />
     <Folder Include="Flyweight\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Command\DrawForm.resx">
+      <DependentUpon>DrawForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mediator\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +212,9 @@
       <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll</HintPath>
       <Private>True</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="commands.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
