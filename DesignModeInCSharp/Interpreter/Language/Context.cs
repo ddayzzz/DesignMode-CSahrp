@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace DesignModeInCSharp.Interpreter
+namespace DesignModeInCSharp.Interpreter.Language
 {
     public class Context
     {
         private string[] tokens;
         private int currentToken;
-
+        /// <summary>
+        /// 用于定义一个工厂
+        /// </summary>
+        private IExecutorFactory factory;
         public Context(string text)
         {
             tokens = text.Split(new char[]
@@ -83,6 +86,16 @@ namespace DesignModeInCSharp.Interpreter
                 throw new ParseException(e.Message);
             }
             return num;
+        }
+
+        public void SetExecutorFactory(IExecutorFactory factory)
+        {
+            this.factory = factory;
+        }
+
+        public IExecutor CreateExecutor(string name)
+        {
+            return factory.CreateExecutor(name);
         }
     }
 }

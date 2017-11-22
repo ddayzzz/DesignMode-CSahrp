@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignModeInCSharp.Interpreter
+namespace DesignModeInCSharp.Interpreter.Language
 {
     class CommandNode : Node
     {
@@ -26,6 +26,11 @@ namespace DesignModeInCSharp.Interpreter
         public override string ToString()
         {
             return node.ToString();
+        }
+
+        public override void Execute()
+        {
+            node.Execute();
         }
     }
 }

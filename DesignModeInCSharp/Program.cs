@@ -10,6 +10,7 @@ namespace DesignModeInCSharp
     {
         static void Main(string[] args)
         {
+            //DesignModeInCSharp.Interpreter.Language.Test.Main(args);
         }
     }
 }

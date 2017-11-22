@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignModeInCSharp.Interpreter
+namespace DesignModeInCSharp.Interpreter.Language
 {
     class CommandListNode : Node
     {
@@ -40,6 +40,14 @@ namespace DesignModeInCSharp.Interpreter
                 sb.Append(node.ToString() + " ");
             }
             return sb.Append("]").ToString();
+        }
+
+        public override void Execute()
+        {
+            foreach(var cmd in list)
+            {
+                cmd.Execute();
+            }
         }
     }
 }

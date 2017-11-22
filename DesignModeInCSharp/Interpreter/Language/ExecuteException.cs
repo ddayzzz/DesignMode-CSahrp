@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignModeInCSharp.Interpreter
+namespace DesignModeInCSharp.Interpreter.Language
 {
-    public class ParseException:Exception
+    class ExecuteException:Exception
     {
-        public ParseException(string msg) : base(msg)
+        public ExecuteException(string msg):base(msg)
         {
 
         }

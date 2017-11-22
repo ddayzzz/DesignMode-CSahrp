@@ -2,6 +2,21 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SSDTUnitTestPath Condition="'$(SSDTUnitTestPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB</SSDTUnitTestPath>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup>
     <SSDTPath Condition="'$(SSDTPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130</SSDTPath>
@@ -29,7 +44,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>2</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -41,7 +56,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignModeInCSharp.Interpreter.Test</StartupObject>
+    <StartupObject>DesignModeInCSharp.Interpreter.Turtle.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -100,15 +115,29 @@
     <Compile Include="Dectorator\PlainXMLFormater.cs" />
     <Compile Include="Dectorator\StringDisplay.cs" />
     <Compile Include="Dectorator\Test.cs" />
-    <Compile Include="Interpreter\CommandListNode.cs" />
-    <Compile Include="Interpreter\CommandNode.cs" />
-    <Compile Include="Interpreter\Context.cs" />
-    <Compile Include="Interpreter\Node.cs" />
-    <Compile Include="Interpreter\ParseException.cs" />
-    <Compile Include="Interpreter\PrimitiveCommandNode.cs" />
-    <Compile Include="Interpreter\ProgramNode.cs" />
-    <Compile Include="Interpreter\RepeatCommandNode.cs" />
-    <Compile Include="Interpreter\Test.cs" />
+    <Compile Include="Interpreter\Language\CommandListNode.cs" />
+    <Compile Include="Interpreter\Language\CommandNode.cs" />
+    <Compile Include="Interpreter\Language\Context.cs" />
+    <Compile Include="Interpreter\Language\ExecuteException.cs" />
+    <Compile Include="Interpreter\Language\IExecutor.cs" />
+    <Compile Include="Interpreter\Language\IExecutorFactory.cs" />
+    <Compile Include="Interpreter\Language\InterpreterFacade.cs" />
+    <Compile Include="Interpreter\Language\Node.cs" />
+    <Compile Include="Interpreter\Language\ParseException.cs" />
+    <Compile Include="Interpreter\Language\PrimitiveCommandNode.cs" />
+    <Compile Include="Interpreter\Language\ProgramNode.cs" />
+    <Compile Include="Interpreter\Language\RepeatCommandNode.cs" />
+    <Compile Include="Interpreter\Language\Test.cs" />
+    <Compile Include="Interpreter\Turtle\Test.cs" />
+    <Compile Include="Interpreter\Turtle\TurtleDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interpreter\Turtle\TurtleDemo.Designer.cs">
+      <DependentUpon>TurtleDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interpreter\Turtle\TurtlePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Mediator\ColleagueButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -179,7 +208,7 @@
     <None Include="Command\Command.cd" />
     <None Include="Composite.cd" />
     <None Include="Dectorator\Dectorator.cd" />
-    <None Include="Interpreter\Interpreter.cd" />
+    <None Include="Interpreter\Language\Interpreter.cd" />
     <None Include="Mediator\Mediator.cd" />
     <None Include="Memento\Memento.cd" />
     <None Include="Observer\Observer.cd" />
@@ -195,6 +224,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Command\DrawForm.resx">
       <DependentUpon>DrawForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interpreter\Turtle\TurtleDemo.resx">
+      <DependentUpon>TurtleDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mediator\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -216,10 +248,26 @@
   <ItemGroup>
     <Content Include="commands.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <SsdtUnitTestVersion>3.1</SsdtUnitTestVersion>
   </PropertyGroup>
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' == ''" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>

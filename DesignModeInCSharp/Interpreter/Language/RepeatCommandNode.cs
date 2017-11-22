@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignModeInCSharp.Interpreter
+namespace DesignModeInCSharp.Interpreter.Language
 {
     /// <summary>
     /// 循环体的定义
@@ -28,6 +28,12 @@ namespace DesignModeInCSharp.Interpreter
         public override string ToString()
         {
             return "[repeat " + number + " " + commandListNode + "]";
+        }
+
+        public override void Execute()
+        {
+            for (int i = 0; i < number; ++i)
+                commandListNode.Execute();
         }
     }
 }

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DesignModeInCSharp.Interpreter.Language.Node">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\Node.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.Context">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAgAAAAAAAAFAAAAAAAAAAAAgCAAAIAAAA=</HashCode>
+      <FileName>Interpreter\Language\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.ProgramNode">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\ProgramNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.CommandListNode">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\CommandListNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.CommandNode">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\CommandNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.PrimitiveCommandNode">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQEAAAEAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\PrimitiveCommandNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.RepeatCommandNode">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAQAQEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\RepeatCommandNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Language.InterpreterFacade">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAgAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\InterpreterFacade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignModeInCSharp.Interpreter.Turtle.TurtlePanel">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DesignModeInCSharp.Interpreter.Turtle.TurtlePanel.DIRECTION" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Interpreter\Turtle\TurtlePanel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="DesignModeInCSharp.Interpreter.Turtle.TurtlePanel.TurtleExecutor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Interpreter\Turtle\TurtlePanel.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="DesignModeInCSharp.Interpreter.Turtle.TurtlePanel.GoExecutor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Interpreter\Turtle\TurtlePanel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DesignModeInCSharp.Interpreter.Turtle.TurtlePanel.DirectionExecutor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Interpreter\Turtle\TurtlePanel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAAACAQEAAIQIAQAAEJAAAEAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Interpreter\Turtle\TurtlePanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignModeInCSharp.Interpreter.Language.IExecutorFactory">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\IExecutorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignModeInCSharp.Interpreter.Language.IExecutor">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter\Language\IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

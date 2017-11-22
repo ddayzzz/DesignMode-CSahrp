@@ -31,3 +31,4 @@ F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.Mediator.L
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.csproj.GenerateResource.Cache
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.State.SafeForm.resources
 F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.Command.DrawForm.resources
+F:\DesignModeInCSharp\DesignModeInCSharp\obj\Debug\DesignModeInCSharp.Interpreter.Turtle.TurtleDemo.resources
